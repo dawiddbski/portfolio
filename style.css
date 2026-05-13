@@ -7,6 +7,18 @@ body{
     background-color: white;
     padding: 0;
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+button{
+    width: 30px;
+    
+    
+}
+#navbar.dark{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;   
 }
 #navbar{
     margin: 0;
@@ -121,6 +133,7 @@ section{
     border-radius: 0;
 }
 
+
 .skill-information progress::-webkit-progress-bar{
     background-color: black;
     border-radius: 0;
@@ -171,4 +184,52 @@ section{
 }
 p a i:hover{
     text-decoration: underline;
+}
+
+
+#themeToggle {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+body.dark #themeToggle {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+#skills-section.dark-section {
+    background-color: #1e1e1e;
+}
+
+#contact-section.dark-section {
+    background-color: #1e1e1e;
+}
+
+#navbar.dark-section{
+    background-color: #000;
+    color: white;
+}
+#navbar.dark-section a{
+    color: white;
+}
+body.dark{
+    background-color: #000;
+    color: white;
+}
+
+#projects-section.dark-section a{
+    color: white;
 }
