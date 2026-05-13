@@ -188,9 +188,13 @@ p a i:hover{
 }
 
 
-#themeToggle {
+
+    #themeToggle {
     font-size: 1.7rem;
-    margin-top: -10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    margin-top: 0;
     width: 50px;
     height: 50px;
     border: none;
@@ -199,7 +203,9 @@ p a i:hover{
     background-color: #222;
     color: white;
     transition: 0.3s;
+    z-index: 999;
 }
+
 
 
 
