@@ -30,7 +30,7 @@ button{
     left: 0;
     z-index: 100;
     background-color: white;
-    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.3);
 }
 #navbar ul{
     display: flex;
